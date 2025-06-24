@@ -29,7 +29,7 @@ public class Auto {
                 System.out.println("Marca: " + marca);
                 System.out.println("Modelo:" + modelo);
                 System.out.println("Año: " + anio);
-                System.out.println("Estado:" + (encendido ? "Encendido": "Apagado");
+                System.out.println("Estado:" + (encendido ? "Encendido": "Apagado"));
         }
 }
 

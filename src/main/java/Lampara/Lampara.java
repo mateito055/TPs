@@ -2,11 +2,10 @@ public class Lampara{
   private String color;
   private String intensidad;
   private boolean encendida;
-  public Lampara(String color, String intensidad, boolean encendida){
-          this.color = color;
-          this.intensidad = intensidad;
-          this.encendida = false;
+  public Lampara(){
+          
   }
+        
         public void encender(){
                 if (encendida = true){
                 System.out.println("la lampara ya está encendida con una intensidad " + intensidad + " y de color " + color );
@@ -31,5 +30,24 @@ public class Lampara{
                 }
 
 
+        }
+        public String getColor(){
+                return color;
+                
+        }
+        public void setColor(String color){
+                this.color = color;
+        }
+        public String getIntensidad(){
+                return intensidad;
+        }
+        public void setIntensidad(String intensidad){
+                this.intensidad = intensidad;
+        }
+        public boolean getEncendida(){
+                return encendida;
+        }
+        public void setEncendida(boolean encendida){
+                this.encendida = encendida;
         }
 }
