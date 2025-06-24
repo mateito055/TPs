@@ -1,7 +1,10 @@
 public class MainAuto {
-  public static void main(String[] args) {
-    Auto miAuto = new Auto("toyota","Corolla Hybrid", 2020);
-    miAuto.encender();
-    miAuto.apagar();
-  }
+public static void main(String[] args) {
+  Auto miAuto = new Auto("Toyota", "Corolla", 2020);
+  miAuto.mostrarInfo();
+  miAuto.encender();
+  miAuto.encender();
+  miAuto.apagar();
+  miAuto.apagar();
+}
 }
