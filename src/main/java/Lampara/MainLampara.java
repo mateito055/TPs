@@ -1,4 +1,4 @@
-public class Main {
+public class MainLampara {
   public static void main(String[] args) {
     Lampara lampara = new Lampara();
     lampara.setColor("Blanco");
